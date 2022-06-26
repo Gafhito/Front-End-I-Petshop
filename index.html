@@ -4,82 +4,132 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petshop DH</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header>
-      <div id="lista-head">
-        <p>Grandes ofertas en comederos</p>
+      <nav id="lista-head">
+        <div><p>Grandes ofertas en comederos</p></div>
+        <div>
+          <ul>
+            <li>Español <img src="img/flechita.png" /></li>
+            <li>$AR <img src="img/flechita.png" /></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="navbar">
+        <div><img src="img/Logo-1.png" /></div>
         <ul>
-          <li>Español</li>
-          <li>$AR</li>
+          <li><img src="img/patita.png" />Categorías</li>
+          <li><img src="img/patita.png" />Pets</li>
+          <li><img src="img/patita.png" />Nosotros</li>
+          <li><img src="img/patita.png" />Contactanos</li>
         </ul>
-      </div>
-      <div id="navbar">
-        <img src="img/Logo-1.png" />
-        <ul>
-          <li>Categorías</li>
-          <li>Pets</li>
-          <li>Nosotros</li>
-          <li>Contactanos</li>
-        </ul>
-      </div>
+      </nav>
     </header>
 
-    <div id="bienvenida">¡Es un placer tenerte aquí!</div>
-    <section class="articulo">
-      <br />
-      <strong>¡Comederos en descuento!</strong> <br /><br />
-      <mark class="boton">COMEDEROS</mark>
-    </section>
+    <main>
+      <section class="articulo">
+        <div id="bienvenida">¡Es un placer tenerte aquí!</div>
+        <div id="descuento">¡Comederos en descuento!</div>
+        <div id="boton"><p>COMEDEROS</p></div>
+      </section>
 
-    <section>
-      <img src="img/pawprint.png" />
-      <h2>Productos Destacados</h2>
-      Comederos - Accesorios - Comida <br />
+      <section>
+        <div class="presentacion">
+          <div><img src="img/patita-grande.png" /></div>
+          <div><h2>Productos Destacados</h2></div>
+          <div><p>Comederos - Accesorios - Comida</p></div>
+        </div>
 
-      <div class="destacados">
-        <img src="img/churrasquito.png" /> <br />
-        Juguete Churrasquito <br />
-        <div id="precio">$150</div>
+        <div class="destacados">
+          <div id="card">
+            <div><img src="img/churrasquito.png" /></div>
+            <p id="titulo-item">Juguete Churrasquito</p>
+            <p id="precio">$150</p>
+          </div>
 
-        <img src="img/churrasquito.png" /> <br />
-        Juguete Churrasquito <br />
-        <div id="precio">$150</div>
+          <div id="card">
+            <div><img src="img/comedero.png" /></div>
+            <p id="titulo-item">Comedero para perro</p>
+            <p id="precio">$250</p>
+          </div>
 
-        <img src="img/churrasquito.png" /> <br />
-        Juguete Churrasquito <br />
-        <div id="precio">$150</div>
-      </div>
-    </section>
+          <div id="card">
+            <div><img src="img/huesito.png" /></div>
+            <p id="titulo-item">Juguete Huesito</p>
+            <p id="precio">$650</p>
+          </div>
+        </div>
+      </section>
 
-    <section class="contacto">
-      <div>
-        <img src="img/icono-direccion.png"> <br>
-        Localidad <br>
-        Calle - Provincia
-      </div><br>
-      <div>
-        <img src="img/icono-telefono.png"> <br>
-        Teléfono <br>
-        Número de teléfono
-      </div><br>
-      <div>
-        <img src="img/icono-correo.png"> <br>
-        Correo Electrónico <br>
-        Dirección de correo
-      </div> <br>
-      <div>
-        <img src="img/Logo-2.png">
-      </div>
-    </section>
+      <section class="formulario">
+        <p>Contáctanos</p>
+        <input type="text" placeholder="Nombre y Apellido" />
+        <input type="mail" placeholder="Ingresa tu correo electrónico" />
+        <input type="text" placeholder="Telefono" />
+        <div>
+          <button id="reset">Resetear</button>
+          <button id="enviar">Enviar</button>
+        </div>
+      </section>
 
+      <section class="suscripcion">
+        <div id="mensaje-suscripcion">
+          <p><img src="img/cartita.png" /></p>
+          <p>Suscríbete para más novedades</p>
+        </div>
+        <div id="mail-suscripcion">
+          <input type="mail" placeholder="Ingresa tu correo electrónico" />
+          <button>Suscribirme</button>
+        </div>
+      </section>
+
+      <section class="contacto">
+        <div>
+          <div id="datos-contacto">
+            <div>
+              <p><img src="img/icono-direccion.png" /></p>
+            </div>
+            <div>
+              <p id="texto-contacto-1">Localidad</p>
+              <p id="texto-contacto-2">Calle - Provincia</p>
+            </div>
+          </div>
+
+          <div id="datos-contacto">
+            <div>
+              <p><img src="img/icono-telefono.png" /></p>
+            </div>
+            <div>
+              <p id="texto-contacto-1">Teléfono</p>
+              <p id="texto-contacto-2">Número de teléfono</p>
+            </div>
+          </div>
+
+          <div id="datos-contacto">
+            <div>
+              <p><img src="img/icono-correo.png" /></p>
+            </div>
+            <div>
+              <p id="texto-contacto-1">Correo Electrónico</p>
+              <p id="texto-contacto-2">Dirección de correo</p>
+            </div>
+          </div>
+        </div>
+        <div id="logo-final">
+          <img src="img/Logo-2.png" />
+        </div>
+      </section>
+    </main>
     <footer class="footer">
-      <br />
       Todos los derechos reservados
     </footer>
   </body>

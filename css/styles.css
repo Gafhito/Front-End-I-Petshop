@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+#lista-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    /* height: 25px; */
+}
+
+#lista-head ul {
+    display: flex;
+}
+
+#lista-head ul li {
+    margin: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#navbar {
+    display: flex;
+    background-color: #f0a83e;
+    color: white;
+    justify-content: space-between;
+}
+
+#navbar div {
+    padding: 10px;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 10px;
+}
+
+#navbar ul li {
+    margin: 5px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/bowl-and-pet-daities-on-green-background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: large;
+    height: 600px;
+    text-align: center;
+    padding-left: 60%;
+}
+
+#bienvenida {
+    background-color: white;
+    font-size: 250%;
+    width: 570px;
+    border-radius: 5px;
+}
+
+#descuento {
+    padding: 20px 0px;
+}
+
+#boton {
+    color: white;
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion div h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.presentacion div p {
+    font-size: 15;
+}
+
+.destacados {
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFAF6;
+    width: 265px;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#precio {
+    color: orange;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario p {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.formulario input {
+    margin: 10px 0;
+    background-color: #3C2313;
+    color: white;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 275.5px);
+    border-radius: 15px;
+    border: none;
+}
+
+.formulario div{
+    display: flex;
+    margin-bottom: 75px;
+}
+
+#reset {
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 - 52px);
+    top: calc(50% - 34px/2 + 453.5px);
+    background: #8A8787;
+    border-radius: 15px;
+    border: none;
+    margin-right: 3px;
+}
+
+#enviar {
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 + 64px);
+    top: calc(50% - 34px/2 + 453.5px);
+    background: #F0A83E;
+    border-radius: 15px;
+    border: none;
+    margin-left: 3px;
+}
+
+.suscripcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    height: 60px;
+}
+
+#mensaje-suscripcion {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-left: 20px;
+}
+
+#mensaje-suscripcion p {
+    margin: 5px;
+}
+
+#mail-suscripcion input {
+    width: 271px;
+    height: 40px;
+    left: calc(50% - 271px/2 + 254.5px);
+    top: calc(50% - 40px/2 + 575.5px);
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+}
+
+#mail-suscripcion button {
+    width: 100px;
+    height: 34px;
+    left: calc(50% - 70px/2 + 430px);
+    top: calc(50% - 34px/2 + 575.5px);
+    margin-right: 20px;
+    background-color: #3C2313;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    color: white;
+}
+
+#datos-contacto {
+    display: flex;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+#datos-contacto div {
+    margin: 0 15px;
+}
+
+#texto-contacto-1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#texto-contacto-2 {
+    font-weight: 700;
+    font-size: 10px;
+    color: #8A8787;
+}
+
+#logo-final {
+    margin-right: 100px;
+}
+
+.footer{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
